@@ -31,6 +31,7 @@ export default {
     <table v-for="place in places" v-bind:key="place.id">
       <h2>Name: {{ place.name }}</h2>
     </table>
+    <div></div>
   </div>
 </template>
 
